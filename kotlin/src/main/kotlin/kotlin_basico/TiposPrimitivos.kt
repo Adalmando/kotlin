@@ -1,6 +1,4 @@
-import kotlin.reflect.typeOf
-
-/*
+package kotlin_basico/*
 Tipo    quantBits
 Double  64
 Float   32

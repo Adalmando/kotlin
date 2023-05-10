@@ -1,3 +1,5 @@
+package kotlin_basico
+
 fun main() {
 
     println("Olá, mundo!")
@@ -12,6 +14,10 @@ fun main() {
 
     nomeDois = "Araújo"
 
-    println("${nome} ${nomeDois}")
+    // para uma interpolação simples usamos $variavel:
+    println("Olá, $nome!")
+    println("Seu sobrenome é $nomeDois.")
 
+    // para uma interpolação com alguma funcionalidade, usamos ${variavel + variavel, etc...}:
+    println("Seu nome completo é ${nome +" "+nomeDois}")
 }
