@@ -31,11 +31,14 @@ fun converteMilhas(entrada: Float) = entrada*1.609f
 fun parseA(valor: String){
     println("${valor.lowercase().replace('a', 'x')}")
 }
+
+// 6.
 fun main(){
 
     transformaAnos(2)
     println(contaCaracteres("adalmando"))
     println(cubo(3))
     println(converteMilhas(100f ))
+    parseA("ADALMANDO")
 
 }
