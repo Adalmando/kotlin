@@ -1,6 +1,4 @@
-package leitura_de_dados
-
-import kotlin.reflect.typeOf
+package secao5.leitura_de_dados
 
 // semelhante ao scanner em java:
 // sempre recebe valores String, se quiser depois é so converter:
