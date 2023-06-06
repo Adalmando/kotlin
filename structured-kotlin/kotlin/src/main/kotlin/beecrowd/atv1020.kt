@@ -2,9 +2,9 @@ package beecrowd
 
 fun main() {
     val n = readLine()!!.toInt()
-    var anos: Int
-    var meses: Int
-    var dias: Int
+    val anos: Int
+    val meses: Int
+    val dias: Int
 
     if(n>=30){
         if(n>365){
