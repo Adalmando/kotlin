@@ -1,0 +1,5 @@
+package classeAnonima
+
+fun main() {
+    
+}
